@@ -3,5 +3,11 @@
 	name = suyogdahal
 [includeIf "gitdir:~/docsumo/"]
 	path = .gitconfig-Gitlab
+[http]
+	postBuffer = 157286400
+[credential]
+	helper = store
+[credential "https://dev.azure.com"]
+	useHttpPath = true
 [init]
 	defaultBranch = main
