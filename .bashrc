@@ -4,7 +4,7 @@
 
 alias python=python3
 alias bashrc="sudo nano ~/.bashrc"
-alias i3="sudo nano ~/.config/i3/config"
+alias i3config="sudo nano ~/.config/i3/config"
 
 # If not running interactively, don't do anything
 case $- in
@@ -148,3 +148,4 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 alias config='/usr/bin/git --git-dir=/home/suyog/.cfg/ --work-tree=/home/suyog'
+export GOOGLE_APPLICATION_CREDENTIALS="docsumo/creds.json"
