@@ -222,15 +222,19 @@ bar {
 #############################
 ### GAPPING CONFIGURATION ###
 #############################
+# This effectively disables the window title bars alltogether (enabling gaps/gapping)
+for_window [class=".*"] border pixel 0
 
-# # This effectively disables the window title bars alltogether (enabling gaps/gapping)
-# for_window [class=".*"] border pixel 0
+gaps inner 20
+gaps outer -2
 
-# Gaps
-#hide_edge_borders both
-for_window [class="^.*"] border pixel 2 
-gaps inner 15 
-gaps outer 15
+# Smart gaps (gaps used if only more than one container on the workspace)
+smart_gaps on
+
+# Smart borders (draw borders around container only if it is not the only container on this workspace)
+ 
+# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+smart_borders on
 
 ###########################################
 ### Brightness and volume CONFIGURATION ###
