@@ -5,6 +5,7 @@
 	path = .gitconfig-Gitlab
 [http]
 	postBuffer = 157286400
+	sslVerify = True
 [credential]
 	helper = store
 [credential "https://dev.azure.com"]

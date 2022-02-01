@@ -225,7 +225,7 @@ bar {
 # This effectively disables the window title bars alltogether (enabling gaps/gapping)
 for_window [class=".*"] border pixel 0
 
-gaps inner 20
+gaps inner 10
 gaps outer -2
 
 # Smart gaps (gaps used if only more than one container on the workspace)
