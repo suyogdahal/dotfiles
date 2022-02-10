@@ -148,4 +148,3 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 alias config='/usr/bin/git --git-dir=/home/suyog/.cfg/ --work-tree=/home/suyog'
-export GOOGLE_APPLICATION_CREDENTIALS="docsumo/creds.json"
